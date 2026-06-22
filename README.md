@@ -1,20 +1,67 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# 🧾 RRA Assistant
+
+**An AI assistant that simplifies tax declaration in Rwanda.**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
 </div>
 
-# Run and deploy your AI Studio app
+## About
 
-This contains everything you need to run your app locally.
+Filing taxes can be confusing, time-consuming, and intimidating — especially for small businesses and individuals who aren't accountants.
 
-View your app in AI Studio: https://ai.studio/apps/9df2981a-9704-4270-a6ca-6278906390fc
+**RRA Assistant** is an AI-powered guide that walks Rwandan taxpayers through the declaration process in plain language: what to declare, how, and when. It turns a stressful obligation into a guided conversation.
 
-## Run Locally
+> Built to make tax compliance clearer and more accessible for everyday Rwandans.
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+- 🤖 **Conversational guidance** — ask questions and get clear, step-by-step answers
+- 📋 **Declaration walkthroughs** — understand which taxes apply to you
+- 🗓️ **Deadlines & reminders** — never miss an important filing date
+- 🌍 **Local context** — tailored to Rwandan tax processes
+- 📱 **Mobile-first** — accessible on the devices people actually use
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **Frontend:** React + TypeScript + Vite
+- **Styling:** Tailwind CSS
+- **Tooling:** ESLint
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Gacaca6/RRA-Assistant.git
+cd RRA-Assistant
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+```bash
+npm run build     # Production build
+npm run preview   # Preview the production build
+npm run lint      # Lint the codebase
+```
+
+## 🗺️ Status
+
+Actively developed. Feedback and contributions are welcome.
+
+## ⚠️ Disclaimer
+
+RRA Assistant is an independent project and is **not** an official Rwanda Revenue Authority product. Always confirm official requirements with the RRA.
+
+## 👤 Author
+
+**GACACA Godwin** — building AI-powered products for African impact.
+📫 mikelgodwin1234@gmail.com
